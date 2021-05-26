@@ -1,0 +1,7 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          # issuer-uri: http://localhost:18080/auth/realms/orange-talents-4
+          jwk-set-uri: http://localhost:18080/auth/realms/orange-talents-4/protocol/openid-connect/certs
